@@ -1,5 +1,6 @@
 
 import Link from "next/link";
+import MainContainer from "../components/MainContainer";
 
 
 export async function getStaticProps(context) {
@@ -14,7 +15,7 @@ const Users = ({users}) => {
 
 
     return (
-        <div>
+        <MainContainer keywords={"users next js"}>
             <p>Hey yo !</p>
             <h2> List users :</h2>
             <ul>
@@ -26,7 +27,7 @@ const Users = ({users}) => {
                     </li>
                 )}
             </ul>
-        </div>
+        </MainContainer>
     );
 };
 
