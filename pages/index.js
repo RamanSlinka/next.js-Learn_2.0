@@ -5,10 +5,11 @@ import MainContainer from "../components/MainContainer";
 export default function Home() {
     return (
         <MainContainer keywords={"main page"}>
-            <h1>Main page</h1>
-
             <main className={styles.main}>
-                Hi everyone !
+                <h1>Main page</h1>
+                   <h2>
+                    Hi everyone !
+                   </h2>
             </main>
 
 
