@@ -14,16 +14,16 @@ const MainContainer = ({children, keywords}) => {
             </Head>
 
             <div className="navbar">
-            <CustomLink href={"/"} text={"Main"} />
-            <CustomLink href={"/users"} text={"Users"}/>
+                <CustomLink href={"/"} text={"Main"}/>
+                <CustomLink href={"/users"} text={"Users"}/>
             </div>
             <style jsx>
                 {`
-                      .navbar {
-                        background: darkorange;
-                        padding: 15px;
-                      }                   
-                    `}
+                  .navbar {
+                    background: darkorange;
+                    padding: 15px;
+                  }
+                `}
             </style>
             <div>
                 {children}
@@ -31,7 +31,7 @@ const MainContainer = ({children, keywords}) => {
 
 
             <footer className={styles.footer}>
-created by Raman Slinka
+                Created by Raman Slinka
             </footer>
         </>
     );
