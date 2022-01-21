@@ -1,6 +1,5 @@
-import {useRouter} from "next/router";
+import { useRouter } from 'next/router'
 import MainContainer from "../../components/MainContainer";
-
 
 
 export async function getServerSideProps({params}) {
